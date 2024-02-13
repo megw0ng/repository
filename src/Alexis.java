@@ -11,6 +11,18 @@ public class Alexis {
         Scanner keyboard = new Scanner(System.in);
         String name;
 
+         System.out.println("Hello! My name is Alexis. What is your name?");
+        name = keyboard.nextLine();
+
+        String userHobby;
+        System.out.println("Nice to meet you, " + name + "! What you like to do in your spare time?");
+        userHobby = keyboard.nextLine();
+
+        String habitualYears;
+        System.out.println("That sounds wonderful! How long have you been " + userHobby + "?");
+        habitualYears = keyboard.nextline();
+        System.out.println(habitualYears "? That is impressive!");
+        
         // Sample code
         // System.out.println("What's your name?");
         // name = keyboard.nextLine();
